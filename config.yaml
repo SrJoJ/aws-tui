@@ -1,0 +1,17 @@
+# aws-tui Configuration File
+
+# Shortcuts configuration
+shortcuts:
+  global:
+    command_palette: ":"
+    quit: "q"
+    help: "?"
+    profile_select: "ctrl-p"
+  providers:
+    ec2:
+      "SSH Connect": "s"
+
+# Providers configuration
+providers:
+  ec2:
+    type: "builtin"
